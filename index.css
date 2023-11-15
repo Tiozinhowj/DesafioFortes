@@ -11,7 +11,7 @@ form {
 }
 
 form input[type=text],
-form input[type=password]{
+form input[type=text]{
     display: flex;
     width: 283px;
     padding: 10px 15px;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+        <link rel="stylesheet" href="avaliencar.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
+		<title>052 - Avaliações com JavaScript | ilustraCode</title>
+	</head>
+	<body>
+        <header>
+            <nav>
+              <a class="logo" href="/">Avalie o Cardapio</a>
+              <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+              <ul class="nav-list">
+                <li><a href="../cardapio.html">Cardapio</a></li>
+                <li><a href="../Restrições/restrições.html">Restrições</a></li>
+                <li><a href="../Registrar/registrar.html">Registre seu Consumo</a></li>
+                <li><a href="../colaborador.html">Menu</a></li> 
+              </ul>
+            </nav>
+          </header>
+<main>
+  <img src="../FORTES_LOGOMARCA.png" alt="logoMarcaFortes">
+    <section>
+        <div class="Title" id="Title01">
+            <h3> Qual é a sua satisfação ? </h3>
+        </div>
+    </section>
+    <section>
+        <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+    </section>
+    <section>
+        <h5> Possui um Comentario ? (Opcional) </h5>
+            <textarea > </textarea>
+     
+    </section>
+    <section>
+        <button  onclick="alert()"> <h4> Enviar Avaliação </h4> </button>
+    </section>
+</main>
+    
+<script src="avaliencar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="registrar.css" />
+    <title>Registre seu Consumo</title>
+</head>
+<body>
+    <body>
+        <header>
+          <nav>
+            <a class="logo" href="/">Registre seu Consumo</a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="../cardapio.html">Cardapio</a></li>
+              <li><a href="../Restrições/restrições.html">Restrições</a></li>
+              <li><a href="../Avaliação/avaliecar.html">Avalie o Cardapio</a></li>
+              <li><a href="../colaborador.html">Menu</a></li> 
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <img src="../FORTES_LOGOMARCA.png" alt="logoMarcaFortes">
+            <section>
+            <div class="date">
+                <input type="date" onchange='reset()'>
+                <h3> Selecione uma Data </h3>
+            </div>
+            </section>
+            <section>
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox01"><h5> Refeição X </h5>
+                <input type="checkbox" id="checkbox02"><h5> Refeição Y </h5>
+                <input type="checkbox" id="checkbox03"><h5> Refeição Z </h5>
+            </div>
+            </section>
+            <section>
+                <div class="submit">
+                    <button onclick="alert()"><h4> Enviar Consumo </h4> </button>
+                </div>
+            </section>
+        </main>
+<script src="registar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>

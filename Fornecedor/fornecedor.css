@@ -103,6 +103,17 @@ nav {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+@media screen and (max-width: 768px) {
+  body {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .nav-list li {
+      opacity: 1;
+  }
+}
+
 img {
   position: absolute;
   top: 35%;
@@ -159,7 +170,7 @@ main a {
   cursor: pointer;
 }
 
-#registrarConsumo a {
+#attcardapio {
   color: #FFF;
   display: flex;
   padding: 16px 32px;
@@ -177,13 +188,17 @@ main a {
   transition: background-color 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-      width: 100%;
-      flex-direction: column;
-  }
-
-  .nav-list li {
-      opacity: 1;
-  }
+h5{
+  color: #000;
+  font-family: Noto Sans Javanese;
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 95.238% */
+  position: absolute;
+  top: 75.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }

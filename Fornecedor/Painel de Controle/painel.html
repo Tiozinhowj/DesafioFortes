@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="painel.css" />
+    <title>Painel</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href="https://fortes.ind.br/">Fortes Engenharia</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="../Documentos/documentos.html">Documentos</a></li>
+            <li><a href="../fornecedor.html">Menu</a></li>
+            <li><a href="#"></a></li> 
+          </ul>
+        </nav>
+      </header>
+      <img src="./../../Colaborador/FORTES_LOGOMARCA.png">
+      <main>
+        <img src="Grafico.png" alt="Grafico de Barras">
+        <section>
+            <input id="data" type="date">
+            <button id="button01" onclick="disponivel()"><h4>Disponivel</h4></button>
+            <button id="button02" onclick="indisponivel()"><h4>Indisponivel</h4></button>
+        </section>
+      </main>
+      <script src="painel.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

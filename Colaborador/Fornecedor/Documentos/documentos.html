@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
-    <link rel="stylesheet" href="painel.css" />
-    <title>Painel</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="documentos.css" />
+    <title>Documentos</title>
 </head>
 <body>
     <header>
@@ -18,22 +18,27 @@
           </div>
           <ul class="nav-list">
             <li><a href="cardapio.html">Cardapio</a></li>
-            <li><a href="../Documentos/documentos.html">Documentos</a></li>
+            <li><a href="../Painel de Controle/painel.html">Painel </a></li>
             <li><a href="../fornecedor.html">Menu</a></li>
             <li><a href="#"></a></li> 
           </ul>
         </nav>
       </header>
-      <img src="./../../Colaborador/FORTES_LOGOMARCA.png">
+      <img src="./../../FORTES_LOGOMARCA.png">
+
       <main>
-        <img src="Grafico.png" alt="Grafico de Barras">
+        <h3> Nome Fornecedor </h3>
         <section>
-            <input id="data" type="date">
-            <button id="button01" onclick="disponivel()"><h4>Disponivel</h4></button>
-            <button id="button02" onclick="indisponivel()"><h4>Indisponivel</h4></button>
+            <input id="input01" type="text" placeholder="Telefone">
+            <input id="input02" type="file" placeholder="Documentos">
+            <input id="input03" type="text" placeholder="Endereço">
+            <input id="input04" type="email" placeholder="Endereço de Email">
+        </section>
+        <section>
+            <button id="button01" type="submit" onclick="button()"><h4> Enviar Dados </h4></button>
         </section>
       </main>
-      <script src="painel.js"></script>
+      <script src="documentos.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
 </body>
 </html>

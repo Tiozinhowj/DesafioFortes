@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(72deg, #e0bac9 2%, #08233a 98%);
+    text-align: center;
+}
+
+main {
+    text-align: left;
+    color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.box {
+    width: 500px;
+    width: 500px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+section {
+    font-size: small;
+    text-align: left;
+
+}
+
+h2 {
+    color: burlywood;
+}
+
+h1 {
+    color: burlywood;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}

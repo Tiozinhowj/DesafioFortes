@@ -4,17 +4,20 @@ function logar() {
 
     if (login === "colaborador" && senha === "colaborador") {
         alert('Sucesso');
-        location.href = "colaborador.html";
+        location.href = "./Colaborador/colaborador.html";
     } else if (login === "fornecedor" && senha === "fornecedor") {
         alert('Sucesso');
-        location.href = "fornecedor.html";
+        location.href = "./Fornecedor/fornecedor.html";
     } else if (login === "gerente" && senha === "gerente") {
         alert('Sucesso');
-        location.href = "gerente.html";
+        location.href = "./Gerente/gerente.html";
     } else if (login === "supervisor" && senha === "supervisor") {
         alert('Sucesso');
-        location.href = "supervisor.html";
+        location.href = "./Supervisor/supervisor.html";
     } else {
-        alert('Erro: Combinação de login/senha inválida');
+            Swal.fire({
+            title: "Registro Enviado",
+            text: "Cadastro ou Senha Errados",
+            icon: "error"
+          });}
     }
-}

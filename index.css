@@ -1,17 +1,16 @@
-
-form {
-    background-color: #FFF;
-    max-width: 500px;
-    width: 70%;
-    padding: 20px;
+img{
+    width: 200px;
+    height: 96px;
+    flex-shrink: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 15%;
+    left: 48.2%;
     transform: translate(-50%, -50%);
-}
+    }
 
-form input[type=text],
-form input[type=text]{
+
+
+input[type=text]{
     display: flex;
     width: 283px;
     padding: 10px 15px;
@@ -22,9 +21,31 @@ form input[type=text]{
     border-radius: 6px;
     border: 1px solid var(--Dark-Blue, #00519A);
     background: var(--White, #FFF);
+    position: absolute;
+    top: 50%;
+    left: 48.2%;
+    transform: translate(-50%, -50%);
 }
 
-form input[type=submit]{
+input[type=password]{
+    display: flex;
+    width: 283px;
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin: 10px 0 ;
+    border-radius: 6px;
+    border: 1px solid var(--Dark-Blue, #00519A);
+    background: var(--White, #FFF);
+    position: absolute;
+    top: 57%;
+    left: 48.2%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    color: #FFF;
     display: flex;
     width: 99px;
     height: 53px;
@@ -32,30 +53,34 @@ form input[type=submit]{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    cursor:pointer;
-    margin: 10px 0 ;
-    transition: 2s;
-border-radius: 999px;
-background: var(--Light-Blue, #08C);
-box-shadow: 0px 5px 15px 0px rgba(37, 44, 97, 0.15), 0px 2px 4px 0px rgba(136, 144, 194, 0.20);
-}
-
-form input[type=submit]:hover{
-    background-color: rgb(2, 101, 150);
-
-}
-
-#icone01 {
-    padding: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-color: #08C;
+    background: var(--Light-Blue, #08C);
+    box-shadow: 0px 5px 15px 0px rgba(37, 44, 97, 0.15), 0px 2px 4px 0px rgba(136, 144, 194, 0.20);
     position: absolute;
-    top: 44.5%;
-    left: 32%;
+    top: 70%;
+    left: 48.2%;
     transform: translate(-50%, -50%);
 }
-#icone02 {
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    transform: translate(-50%, -50%);
+
+#icone03,
+#registrarConsumo a {
+  padding: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
+
+#icone03 {
+  top: 90%;
+  left: 48.2%;
+  text-align: center;
+  color: #0088CC;
+}
+
+main a {
+    text-align: center;
+    text-decoration: none;
+    color: #0088CC;
+    cursor: pointer;
+  }

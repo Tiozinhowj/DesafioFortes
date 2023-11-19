@@ -16,7 +16,7 @@ function logar() {
         location.href = "./Supervisor/supervisor.html";
     } else {
             Swal.fire({
-            title: "Registro Enviado",
+            title: "Erro",
             text: "Cadastro ou Senha Errados",
             icon: "error"
           });}
